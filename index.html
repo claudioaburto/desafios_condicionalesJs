@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío JavaScript</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <h1>Condicionales Javascript</h1>
+    <div class="container">
+      <section class="desafio">
+        <h2>Click en la imagen</h2>
+        <div class="styleOnClick container-guitar">
+          <img
+            id="img-guitarra"
+            src="assets/img/guitarra.jpeg"
+            alt="guitarra"
+          />
+        </div>
+      </section>
+
+      <section class="desafio">
+        <h3>Elije hasta 10 stickers en total</h3>
+        <div class="container-stickers">
+          <div class="sticker">
+            <img src="assets/img/git2.png" alt="sticker1" />
+            <input id="sticker1" type="number" />
+          </div>
+          <div class="sticker">
+            <img src="assets/img/slack.png" alt="sticker2" />
+            <input id="sticker2" type="number" />
+          </div>
+          <div class="sticker">
+            <img src="assets/img/git.png" alt="sticker3" />
+            <input id="sticker3" type="number" />
+          </div>
+        </div>
+        <p id="stock"></p>
+        <button class="btn" id="btn1">Verificar</button>
+      </section>
+
+      <section class="desafio">
+        <h2>Ingresa el password</h2>
+        <div class="container-password">
+          <select id="digit1">
+            <option value="1"></option>
+            <option value="1">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select id="digit2">
+            <option value="1"></option>
+            <option value="1">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select id="digit3">
+            <option value="1"></option>
+            <option value="1">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <p id="passwSolution"></p>
+        <button class="btn" id="btn2">Ingresar</button>
+      </section>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

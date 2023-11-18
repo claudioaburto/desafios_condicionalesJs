@@ -1,0 +1,79 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.desafio {
+  width: 33%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+#img-guitarra {
+  width: 50%;
+}
+
+.container-stickers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.sticker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-guitar {
+  display: flex;
+  justify-content: center;
+}
+.sticker img {
+  height: 120px;
+}
+
+.container-password {
+  display: flex;
+}
+
+input,
+select {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .container-stickers {
+    flex-direction: column;
+  }
+}
